@@ -9,7 +9,7 @@
         <!--Invite-->
         <scene sceneID="hNz-n2-bh7">
             <objects>
-                <viewController title="Invite" modalTransitionStyle="flipHorizontal" id="9pv-A4-QxB" customClass="FirstViewController" customModule="DayCare_" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController title="Invite" modalTransitionStyle="flipHorizontal" id="9pv-A4-QxB" customClass="InviteController" customModule="DayCare_" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="Ia1-K6-d13"/>
                         <viewControllerLayoutGuide type="bottom" id="4ug-Mw-9AY"/>
@@ -49,7 +49,7 @@
         <!--Profile-->
         <scene sceneID="HH2-OD-8m8">
             <objects>
-                <viewController title="Profile" id="s0X-n4-XIX" sceneMemberID="viewController">
+                <viewController title="Profile" id="s0X-n4-XIX" customClass="ProfileController" customModule="DayCare_" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="Ghm-R3-gn1"/>
                         <viewControllerLayoutGuide type="bottom" id="Gyo-G7-whg"/>
@@ -68,7 +68,7 @@
         <!--Daycare-->
         <scene sceneID="eY0-12-Daa">
             <objects>
-                <viewController title="Daycare" id="glC-36-5r2" sceneMemberID="viewController">
+                <viewController title="Daycare" id="glC-36-5r2" customClass="DayCareController" customModule="DayCare_" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="pdZ-pf-6p4"/>
                         <viewControllerLayoutGuide type="bottom" id="cMu-4v-nv9"/>
@@ -89,7 +89,7 @@
         <!--Bookings-->
         <scene sceneID="TfS-VB-BXi">
             <objects>
-                <viewController title="Bookings" modalTransitionStyle="partialCurl" id="6lO-ii-zBq" sceneMemberID="viewController">
+                <viewController title="Bookings" modalTransitionStyle="partialCurl" id="6lO-ii-zBq" customClass="BookingController" customModule="DayCare_" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="Zja-K9-iXC"/>
                         <viewControllerLayoutGuide type="bottom" id="NBK-Wx-qa0"/>
@@ -110,7 +110,7 @@
         <!--Favorites-->
         <scene sceneID="wg7-f3-ORb">
             <objects>
-                <viewController title="Favorites" modalTransitionStyle="crossDissolve" id="8rJ-Kc-sve" customClass="SecondViewController" customModule="DayCare_" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController title="Favorites" modalTransitionStyle="crossDissolve" id="8rJ-Kc-sve" customClass="FavouritesController" customModule="DayCare_" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="L7p-HK-0SC"/>
                         <viewControllerLayoutGuide type="bottom" id="Djb-ko-YwX"/>
@@ -175,7 +175,7 @@
         <!--Invite-->
         <scene sceneID="T6b-af-XSW">
             <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="RDJ-fp-mPX" sceneMemberID="viewController">
+                <navigationController title="Invite" automaticallyAdjustsScrollViewInsets="NO" modalTransitionStyle="flipHorizontal" id="RDJ-fp-mPX" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="Invite" image="Invite" id="acW-dT-cKf"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="EP4-QO-FFx">
