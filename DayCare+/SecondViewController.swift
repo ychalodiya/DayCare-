@@ -1,5 +1,5 @@
 //
-//  FirstViewController.swift
+//  SecondViewController.swift
 //  DayCare+
 //
 //  Created by Yogesh Chalodiya on 2016-09-12.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class InviteController: UIViewController {
+class SecondViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -20,7 +20,6 @@ class InviteController: UIViewController {
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
-       
     }
 
 

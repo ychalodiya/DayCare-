@@ -1,5 +1,5 @@
 //
-//  SecondViewController.swift
+//  FirstViewController.swift
 //  DayCare+
 //
 //  Created by Yogesh Chalodiya on 2016-09-12.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class FavouritesController: UIViewController {
+class FirstViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -20,6 +20,7 @@ class FavouritesController: UIViewController {
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
+       
     }
 
 

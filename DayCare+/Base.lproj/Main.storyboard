@@ -9,13 +9,13 @@
         <!--Invite-->
         <scene sceneID="hNz-n2-bh7">
             <objects>
-                <viewController title="Invite" modalTransitionStyle="flipHorizontal" id="9pv-A4-QxB" customClass="InviteController" customModule="DayCare_" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController title="Invite" modalTransitionStyle="flipHorizontal" id="9pv-A4-QxB" customClass="FirstViewController" customModule="DayCare_" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="Ia1-K6-d13"/>
                         <viewControllerLayoutGuide type="bottom" id="4ug-Mw-9AY"/>
                     </layoutGuides>
                     <view key="view" contentMode="top" semanticContentAttribute="forceLeftToRight" id="tsR-hK-woN">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" text="First View" textAlignment="center" lineBreakMode="tailTruncation" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="KQZ-1w-vlD">
@@ -55,7 +55,7 @@
                         <viewControllerLayoutGuide type="bottom" id="Gyo-G7-whg"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="8N6-Op-HpB">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
@@ -74,7 +74,7 @@
                         <viewControllerLayoutGuide type="bottom" id="cMu-4v-nv9"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="8zb-gk-Pxt">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
@@ -95,7 +95,7 @@
                         <viewControllerLayoutGuide type="bottom" id="NBK-Wx-qa0"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="OXk-6w-mKa">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
@@ -110,13 +110,13 @@
         <!--Favorites-->
         <scene sceneID="wg7-f3-ORb">
             <objects>
-                <viewController title="Favorites" modalTransitionStyle="crossDissolve" id="8rJ-Kc-sve" customClass="FavouritesController" customModule="DayCare_" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController title="Favorites" modalTransitionStyle="crossDissolve" id="8rJ-Kc-sve" customClass="SecondViewController" customModule="DayCare_" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="L7p-HK-0SC"/>
                         <viewControllerLayoutGuide type="bottom" id="Djb-ko-YwX"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="QS5-Rx-YEW">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" text="Second View" textAlignment="center" lineBreakMode="tailTruncation" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="zEq-FU-wV5">
