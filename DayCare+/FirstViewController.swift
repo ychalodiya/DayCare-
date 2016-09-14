@@ -15,6 +15,7 @@ class FirstViewController: UIViewController {
         // Do any additional setup after loading the view, typically from a nib.
         print ("Hi")
         print("yogi")
+        print("one more")
     }
 
     override func didReceiveMemoryWarning() {
