@@ -103,6 +103,7 @@
 					70C157061D87204A0036B24E = {
 						CreatedOnToolsVersion = 7.3.1;
 						DevelopmentTeam = 4CKCZ46HC6;
+						LastSwiftMigration = 0800;
 					};
 				};
 			};
@@ -266,6 +267,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "OS-X.DayCare-";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -279,6 +281,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "OS-X.DayCare-";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
@@ -301,6 +304,7 @@
 				70C1571D1D87204A0036B24E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
