@@ -15,6 +15,7 @@ class FirstViewController: UIViewController {
         // Do any additional setup after loading the view, typically from a nib.
         
         self.navigationItem.title = tabBarItem.title
+        self.view.backgroundColor = UIColor.init(patternImage: #imageLiteral(resourceName: "pattern"))
     }
 
     override func didReceiveMemoryWarning() {

@@ -16,6 +16,7 @@ class DayCareController: UIViewController {
         // Do any additional setup after loading the view.
         
         self.navigationItem.title = tabBarItem.title
+        self.view.backgroundColor = UIColor.init(patternImage: #imageLiteral(resourceName: "pattern"))
     }
 
     override func didReceiveMemoryWarning() {
