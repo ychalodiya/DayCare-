@@ -54,9 +54,33 @@
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bJN-7j-d2p">
                                 <color key="backgroundColor" red="0.37099725220000002" green="0.76591962570000005" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="120" id="hIy-x4-8Kn"/>
+                                    <constraint firstAttribute="height" constant="45" id="yg7-RJ-evS"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <inset key="contentEdgeInsets" minX="10" minY="10" maxX="10" maxY="15"/>
                                 <state key="normal" title="SignIn">
                                     <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="OR" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ftd-HB-pSf">
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lc1-3K-CXj">
+                                <color key="backgroundColor" red="0.1333333333" green="0.2901960784" blue="0.81176470590000005" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <state key="normal" title="Log in with Facebook">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4He-lU-K41">
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <state key="normal" title="Log in with Gmail">
+                                    <color key="titleColor" red="0.1333333333" green="0.28627450980000002" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                             </button>
                         </subviews>
@@ -64,21 +88,31 @@
                         <constraints>
                             <constraint firstAttribute="trailingMargin" secondItem="noY-LH-Gvc" secondAttribute="trailing" id="ImD-uD-cro"/>
                             <constraint firstItem="Iaw-pf-uPf" firstAttribute="centerX" secondItem="tsR-hK-woN" secondAttribute="centerX" id="JGW-YI-Hr5"/>
+                            <constraint firstItem="lc1-3K-CXj" firstAttribute="top" secondItem="ftd-HB-pSf" secondAttribute="bottom" constant="10" id="JpW-i4-c7I"/>
+                            <constraint firstItem="4He-lU-K41" firstAttribute="top" secondItem="lc1-3K-CXj" secondAttribute="bottom" constant="10" id="QWR-M9-dHB"/>
                             <constraint firstItem="gzN-tI-tyt" firstAttribute="top" secondItem="pmP-Uj-Oqz" secondAttribute="bottom" constant="10" id="QoL-ae-n4q"/>
                             <constraint firstItem="gzN-tI-tyt" firstAttribute="leading" secondItem="tsR-hK-woN" secondAttribute="leadingMargin" id="TXf-wA-Qqa"/>
+                            <constraint firstItem="4He-lU-K41" firstAttribute="trailing" secondItem="tsR-hK-woN" secondAttribute="trailingMargin" id="V7W-AJ-Clh"/>
                             <constraint firstItem="Iaw-pf-uPf" firstAttribute="leading" secondItem="tsR-hK-woN" secondAttribute="leadingMargin" id="VVT-4A-2DX"/>
                             <constraint firstAttribute="leadingMargin" secondItem="noY-LH-Gvc" secondAttribute="leading" id="YBB-6E-V5P"/>
                             <constraint firstItem="pmP-Uj-Oqz" firstAttribute="top" secondItem="noY-LH-Gvc" secondAttribute="bottom" constant="15" id="ZLO-YM-aDG"/>
                             <constraint firstItem="Iaw-pf-uPf" firstAttribute="trailing" secondItem="tsR-hK-woN" secondAttribute="trailingMargin" id="afK-l5-Ywe"/>
                             <constraint firstItem="Iaw-pf-uPf" firstAttribute="top" secondItem="gzN-tI-tyt" secondAttribute="bottom" constant="10" id="d38-uj-ZzV"/>
                             <constraint firstItem="gzN-tI-tyt" firstAttribute="centerX" secondItem="tsR-hK-woN" secondAttribute="centerX" id="fe9-wr-QS3"/>
+                            <constraint firstItem="ftd-HB-pSf" firstAttribute="top" secondItem="bJN-7j-d2p" secondAttribute="bottom" constant="10" id="fiJ-6x-yIO"/>
+                            <constraint firstItem="ftd-HB-pSf" firstAttribute="centerX" secondItem="tsR-hK-woN" secondAttribute="centerX" id="frl-M8-w7y"/>
                             <constraint firstItem="bJN-7j-d2p" firstAttribute="centerX" secondItem="tsR-hK-woN" secondAttribute="centerX" id="geN-Sf-bfl"/>
                             <constraint firstItem="gzN-tI-tyt" firstAttribute="trailing" secondItem="tsR-hK-woN" secondAttribute="trailingMargin" id="hdF-4i-G5X"/>
+                            <constraint firstItem="4He-lU-K41" firstAttribute="leading" secondItem="tsR-hK-woN" secondAttribute="leadingMargin" id="iTY-2D-Yvk"/>
                             <constraint firstItem="pmP-Uj-Oqz" firstAttribute="centerX" secondItem="tsR-hK-woN" secondAttribute="centerX" id="jq8-sr-DS5"/>
+                            <constraint firstItem="lc1-3K-CXj" firstAttribute="centerX" secondItem="tsR-hK-woN" secondAttribute="centerX" id="kse-vD-HCC"/>
                             <constraint firstItem="4ug-Mw-9AY" firstAttribute="top" secondItem="UAo-um-QXz" secondAttribute="bottom" constant="10" id="pTq-D3-V8K"/>
                             <constraint firstItem="noY-LH-Gvc" firstAttribute="top" secondItem="Ia1-K6-d13" secondAttribute="bottom" constant="20" id="qbX-11-NPl"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="lc1-3K-CXj" secondAttribute="trailing" id="snR-lw-Uxo"/>
+                            <constraint firstItem="4He-lU-K41" firstAttribute="centerX" secondItem="tsR-hK-woN" secondAttribute="centerX" id="tj9-iP-jtr"/>
                             <constraint firstItem="UAo-um-QXz" firstAttribute="leading" secondItem="tsR-hK-woN" secondAttribute="leadingMargin" id="tw4-gu-suJ"/>
                             <constraint firstItem="bJN-7j-d2p" firstAttribute="top" secondItem="Iaw-pf-uPf" secondAttribute="bottom" constant="10" id="vNn-J3-74Q"/>
+                            <constraint firstItem="lc1-3K-CXj" firstAttribute="leading" secondItem="tsR-hK-woN" secondAttribute="leadingMargin" id="vtk-jn-emf"/>
                             <constraint firstAttribute="trailingMargin" secondItem="UAo-um-QXz" secondAttribute="trailing" id="xZ1-qn-Si9"/>
                         </constraints>
                     </view>
