@@ -14,8 +14,16 @@ class FirstViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         
-        self.navigationItem.title = tabBarItem.title
+       self.navigationItem.title = tabBarItem.title
         self.view.backgroundColor = UIColor.init(patternImage: #imageLiteral(resourceName: "pattern"))
+        
+       /* let leftSwipe = UISwipeGestureRecognizer(target: self, action: Selector(("handleSwipes:")))
+        
+        
+        leftSwipe.direction = .left
+        
+        
+        view.addGestureRecognizer(leftSwipe) */
     }
 
     override func didReceiveMemoryWarning() {
@@ -23,6 +31,21 @@ class FirstViewController: UIViewController {
         // Dispose of any resources that can be recreated.
        
     }
+    /*
+    func handleSwipes(sender:UISwipeGestureRecognizer) {
+        if (sender.direction == .left) {
+            
+            let storyboard = UIStoryboard(name: "Main", bundle: nil)
+            let vc = storyboard.instantiateViewController(withIdentifier: "SecondViewController") 
+            self.present(vc, animated: false, completion: nil)
+            
+        }
+        
+        if (sender.direction == .right) {
+            
+        }
+    }
+    */
 
 
 }
