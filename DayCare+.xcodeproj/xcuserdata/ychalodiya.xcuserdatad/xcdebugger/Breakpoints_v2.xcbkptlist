@@ -1,0 +1,350 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "DayCare+/MainTabBar.swift"
+            timestampString = "495569234.646169"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "11"
+            endingLineNumber = "11"
+            landmarkName = "MainTabBar"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "DayCare_.MainTabBar.init (nibName : Swift.Optional&lt;Swift.String&gt;, bundle : Swift.Optional&lt;__ObjC.Bundle&gt;) -&gt; DayCare_.MainTabBar"
+                  moduleName = "DayCare+"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/yogesh/Documents/DayCare-/DayCare+/MainTabBar.swift"
+                  timestampString = "495569403.190864"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "11"
+                  endingLineNumber = "11"
+                  offsetFromSymbolStart = "107">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "DayCare_.MainTabBar.__allocating_init (nibName : Swift.Optional&lt;Swift.String&gt;, bundle : Swift.Optional&lt;__ObjC.Bundle&gt;) -&gt; DayCare_.MainTabBar"
+                  moduleName = "DayCare+"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/yogesh/Documents/DayCare-/DayCare+/MainTabBar.swift"
+                  timestampString = "495569403.192944"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "23">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "DayCare_.MainTabBar.__allocating_init (coder : __ObjC.NSCoder) -&gt; Swift.Optional&lt;DayCare_.MainTabBar&gt;"
+                  moduleName = "DayCare+"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/yogesh/Documents/DayCare-/DayCare+/MainTabBar.swift"
+                  timestampString = "495569403.195567"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "4">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "DayCare_.MainTabBar.init (coder : __ObjC.NSCoder) -&gt; Swift.Optional&lt;DayCare_.MainTabBar&gt;"
+                  moduleName = "DayCare+"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/yogesh/Documents/DayCare-/DayCare+/MainTabBar.swift"
+                  timestampString = "495569403.197642"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "11"
+                  endingLineNumber = "11"
+                  offsetFromSymbolStart = "105">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "DayCare+/MainTabBar.swift"
+            timestampString = "495569448.595457"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "10"
+            endingLineNumber = "10"
+            landmarkName = "MainTabBar"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "DayCare_.MainTabBar.__deallocating_deinit"
+                  moduleName = "DayCare+"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/yogesh/Documents/DayCare-/DayCare+/MainTabBar.swift"
+                  timestampString = "495569448.599877"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "4">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "DayCare_.MainTabBar.init (nibName : Swift.Optional&lt;Swift.String&gt;, bundle : Swift.Optional&lt;__ObjC.Bundle&gt;) -&gt; DayCare_.MainTabBar"
+                  moduleName = "DayCare+"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/yogesh/Documents/DayCare-/DayCare+/MainTabBar.swift"
+                  timestampString = "495569448.602133"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "11"
+                  endingLineNumber = "11"
+                  offsetFromSymbolStart = "107">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "DayCare_.MainTabBar.__allocating_init (nibName : Swift.Optional&lt;Swift.String&gt;, bundle : Swift.Optional&lt;__ObjC.Bundle&gt;) -&gt; DayCare_.MainTabBar"
+                  moduleName = "DayCare+"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/yogesh/Documents/DayCare-/DayCare+/MainTabBar.swift"
+                  timestampString = "495569448.60447"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "23">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "DayCare_.MainTabBar.__allocating_init (coder : __ObjC.NSCoder) -&gt; Swift.Optional&lt;DayCare_.MainTabBar&gt;"
+                  moduleName = "DayCare+"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/yogesh/Documents/DayCare-/DayCare+/MainTabBar.swift"
+                  timestampString = "495569448.60655"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "4">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "DayCare_.MainTabBar.init (coder : __ObjC.NSCoder) -&gt; Swift.Optional&lt;DayCare_.MainTabBar&gt;"
+                  moduleName = "DayCare+"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/yogesh/Documents/DayCare-/DayCare+/MainTabBar.swift"
+                  timestampString = "495569448.60933"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "11"
+                  endingLineNumber = "11"
+                  offsetFromSymbolStart = "105">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "DayCare+/FirstViewController.swift"
+            timestampString = "495569483.600804"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "11"
+            endingLineNumber = "11"
+            landmarkName = "FirstViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "DayCare_.FirstViewController.init (nibName : Swift.Optional&lt;Swift.String&gt;, bundle : Swift.Optional&lt;__ObjC.Bundle&gt;) -&gt; DayCare_.FirstViewController"
+                  moduleName = "DayCare+"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/yogesh/Documents/DayCare-/DayCare+/FirstViewController.swift"
+                  timestampString = "495569525.126492"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "11"
+                  endingLineNumber = "11"
+                  offsetFromSymbolStart = "107">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "DayCare_.FirstViewController.__allocating_init (nibName : Swift.Optional&lt;Swift.String&gt;, bundle : Swift.Optional&lt;__ObjC.Bundle&gt;) -&gt; DayCare_.FirstViewController"
+                  moduleName = "DayCare+"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/yogesh/Documents/DayCare-/DayCare+/FirstViewController.swift"
+                  timestampString = "495569525.129136"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "23">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "DayCare_.FirstViewController.__allocating_init (coder : __ObjC.NSCoder) -&gt; Swift.Optional&lt;DayCare_.FirstViewController&gt;"
+                  moduleName = "DayCare+"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/yogesh/Documents/DayCare-/DayCare+/FirstViewController.swift"
+                  timestampString = "495569525.131847"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "4">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "DayCare_.FirstViewController.init (coder : __ObjC.NSCoder) -&gt; Swift.Optional&lt;DayCare_.FirstViewController&gt;"
+                  moduleName = "DayCare+"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/yogesh/Documents/DayCare-/DayCare+/FirstViewController.swift"
+                  timestampString = "495569525.134875"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "11"
+                  endingLineNumber = "11"
+                  offsetFromSymbolStart = "105">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "DayCare+/SecondViewController.swift"
+            timestampString = "495569490.077186"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "11"
+            endingLineNumber = "11"
+            landmarkName = "SecondViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "DayCare_.SecondViewController.__deallocating_deinit"
+                  moduleName = "DayCare+"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/yogesh/Documents/DayCare-/DayCare+/SecondViewController.swift"
+                  timestampString = "495569525.150537"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "4">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "DayCare_.SecondViewController.__allocating_init (nibName : Swift.Optional&lt;Swift.String&gt;, bundle : Swift.Optional&lt;__ObjC.Bundle&gt;) -&gt; DayCare_.SecondViewController"
+                  moduleName = "DayCare+"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/yogesh/Documents/DayCare-/DayCare+/SecondViewController.swift"
+                  timestampString = "495569525.15585"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "23">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "DayCare_.SecondViewController.__allocating_init (coder : __ObjC.NSCoder) -&gt; Swift.Optional&lt;DayCare_.SecondViewController&gt;"
+                  moduleName = "DayCare+"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/yogesh/Documents/DayCare-/DayCare+/SecondViewController.swift"
+                  timestampString = "495569525.158738"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "4">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "DayCare_.SecondViewController.init (coder : __ObjC.NSCoder) -&gt; Swift.Optional&lt;DayCare_.SecondViewController&gt;"
+                  moduleName = "DayCare+"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/yogesh/Documents/DayCare-/DayCare+/SecondViewController.swift"
+                  timestampString = "495569525.16133"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "11"
+                  endingLineNumber = "11"
+                  offsetFromSymbolStart = "105">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "DayCare+/FirstViewController.swift"
+            timestampString = "496602154.043368"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "28"
+            endingLineNumber = "28"
+            landmarkName = "didReceiveMemoryWarning()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
