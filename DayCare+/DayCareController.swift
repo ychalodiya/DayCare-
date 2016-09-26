@@ -39,13 +39,16 @@ class DayCareController: UIViewController {
             
             let storyboard = UIStoryboard(name: "Main", bundle: nil)
             let vc = storyboard.instantiateViewController(withIdentifier: "SecondViewController")
-            self.present(vc, animated: false, completion: nil)
+           // self.present(vc, animated: false, completion: nil)
+            
+              self.navigationController!.pushViewController(vc, animated: false)
         }
         if(sender.direction == .left){
             
             let storyboard = UIStoryboard(name: "Main", bundle: nil)
             let vc = storyboard.instantiateViewController(withIdentifier: "BookingController")
-            self.present(vc, animated: false, completion: nil)
+           // self.present(vc, animated: false, completion: nil)
+                          self.navigationController!.pushViewController(vc, animated: false)
         }
         
     }
