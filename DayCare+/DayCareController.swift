@@ -9,6 +9,7 @@
 import UIKit
 
 class DayCareController: UIViewController {
+    @IBOutlet weak var label: UILabel!
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -17,11 +18,36 @@ class DayCareController: UIViewController {
         
         self.navigationItem.title = tabBarItem.title
         self.view.backgroundColor = UIColor.init(patternImage: #imageLiteral(resourceName: "pattern"))
+        let leftg = UISwipeGestureRecognizer(target: self, action: #selector(self.swipes))
+        
+        let rightg = UISwipeGestureRecognizer(target: self, action: #selector(self.swipes))
+        
+        leftg.direction = .left
+        view.addGestureRecognizer(leftg)
+        
+        rightg.direction = .right
+        view.addGestureRecognizer(rightg)
+
     }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
+    }
+    func swipes(sender:UISwipeGestureRecognizer) {
+        if(sender.direction == .right){
+            
+            let storyboard = UIStoryboard(name: "Main", bundle: nil)
+            let vc = storyboard.instantiateViewController(withIdentifier: "SecondViewController")
+            self.present(vc, animated: false, completion: nil)
+        }
+        if(sender.direction == .left){
+            
+            let storyboard = UIStoryboard(name: "Main", bundle: nil)
+            let vc = storyboard.instantiateViewController(withIdentifier: "BookingController")
+            self.present(vc, animated: false, completion: nil)
+        }
+        
     }
     
 

@@ -17,12 +17,41 @@ class BookingController: UIViewController {
         
          self.navigationItem.title = tabBarItem.title
         self.view.backgroundColor = UIColor.init(patternImage: #imageLiteral(resourceName: "pattern"))
+        
+        
+        let leftg = UISwipeGestureRecognizer(target: self, action: #selector(self.swipes))
+        
+        let rightg = UISwipeGestureRecognizer(target: self, action: #selector(self.swipes))
+        
+        leftg.direction = .left
+        view.addGestureRecognizer(leftg)
+        
+        rightg.direction = .right
+        view.addGestureRecognizer(rightg)
+        
     }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
+    
+    func swipes(sender:UISwipeGestureRecognizer) {
+        if(sender.direction == .left){
+            
+            let storyboard = UIStoryboard(name: "Main", bundle: nil)
+            let vc = storyboard.instantiateViewController(withIdentifier: "ProfileController")
+            self.present(vc, animated: false, completion: nil)
+        }
+        if(sender.direction == .right){
+            
+            let storyboard = UIStoryboard(name: "Main", bundle: nil)
+            let vc = storyboard.instantiateViewController(withIdentifier: "DayCareController")
+            self.present(vc, animated: false, completion: nil)
+        }
+        
+    }
+
     
 
     /*
