@@ -10,6 +10,7 @@
 		222B9E0B1D89C10D0049346D /* ProfileController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 222B9E0A1D89C10D0049346D /* ProfileController.swift */; };
 		222B9E0D1D89C1570049346D /* BookingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 222B9E0C1D89C1570049346D /* BookingController.swift */; };
 		222B9E0F1D89C16D0049346D /* DayCareController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 222B9E0E1D89C16D0049346D /* DayCareController.swift */; };
+		22FAD9951D997169008753CE /* SignUpVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22FAD9941D997169008753CE /* SignUpVC.swift */; };
 		70C1570B1D87204A0036B24E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70C1570A1D87204A0036B24E /* AppDelegate.swift */; };
 		70C1570D1D87204A0036B24E /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70C1570C1D87204A0036B24E /* FirstViewController.swift */; };
 		70C1570F1D87204A0036B24E /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70C1570E1D87204A0036B24E /* SecondViewController.swift */; };
@@ -23,6 +24,7 @@
 		222B9E0A1D89C10D0049346D /* ProfileController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileController.swift; sourceTree = "<group>"; };
 		222B9E0C1D89C1570049346D /* BookingController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BookingController.swift; sourceTree = "<group>"; };
 		222B9E0E1D89C16D0049346D /* DayCareController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DayCareController.swift; sourceTree = "<group>"; };
+		22FAD9941D997169008753CE /* SignUpVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpVC.swift; sourceTree = "<group>"; };
 		70C157071D87204A0036B24E /* DayCare+.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "DayCare+.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		70C1570A1D87204A0036B24E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		70C1570C1D87204A0036B24E /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
@@ -70,6 +72,7 @@
 				222B9E0A1D89C10D0049346D /* ProfileController.swift */,
 				70C1570E1D87204A0036B24E /* SecondViewController.swift */,
 				70C157101D87204A0036B24E /* Main.storyboard */,
+				22FAD9941D997169008753CE /* SignUpVC.swift */,
 				222B9E0C1D89C1570049346D /* BookingController.swift */,
 				222B9E0E1D89C16D0049346D /* DayCareController.swift */,
 				70C157131D87204A0036B24E /* Assets.xcassets */,
@@ -152,6 +155,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				22FAD9951D997169008753CE /* SignUpVC.swift in Sources */,
 				70C1571F1D87337A0036B24E /* MainTabBar.swift in Sources */,
 				222B9E0D1D89C1570049346D /* BookingController.swift in Sources */,
 				70C1570F1D87204A0036B24E /* SecondViewController.swift in Sources */,
