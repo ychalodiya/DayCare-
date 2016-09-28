@@ -9,7 +9,6 @@
 import UIKit
 
 class DayCareController: UIViewController {
-    @IBOutlet weak var label: UILabel!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -17,8 +16,8 @@ class DayCareController: UIViewController {
         
         self.navigationItem.title = tabBarItem.title
         self.view.backgroundColor = UIColor.init(patternImage: #imageLiteral(resourceName: "pattern"))
-        let leftg = UISwipeGestureRecognizer(target: self, action: #selector(self.swipes))
         
+        let leftg = UISwipeGestureRecognizer(target: self, action: #selector(self.swipes))
         let rightg = UISwipeGestureRecognizer(target: self, action: #selector(self.swipes))
         
         leftg.direction = .left
@@ -47,8 +46,6 @@ class DayCareController: UIViewController {
             
             //            let storyboard = UIStoryboard(name: "Main", bundle: nil)
             //            let vc = storyboard.instantiateViewController(withIdentifier: "BookingController")
-            //
-            //
             //            self.present(vc, animated: false, completion: nil)
             
             let selectedIndex: Int = self.tabBarController!.selectedIndex

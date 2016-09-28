@@ -20,8 +20,6 @@ class ProfileController: UIViewController {
         
         let rightg = UISwipeGestureRecognizer(target: self, action: #selector(self.swipes))
         
-        
-        
         rightg.direction = .right
         view.addGestureRecognizer(rightg)
     }
@@ -36,6 +34,7 @@ class ProfileController: UIViewController {
             
             let selectedIndex: Int = self.tabBarController!.selectedIndex
             self.tabBarController!.selectedIndex = selectedIndex - 1
+            
         }
         
     }
