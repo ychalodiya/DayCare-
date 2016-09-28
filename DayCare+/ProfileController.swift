@@ -35,6 +35,7 @@ class ProfileController: UIViewController {
             let selectedIndex: Int = self.tabBarController!.selectedIndex
             self.tabBarController!.selectedIndex = selectedIndex - 1
             
+            
         }
         
     }
