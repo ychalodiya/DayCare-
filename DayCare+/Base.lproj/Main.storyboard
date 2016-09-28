@@ -85,15 +85,9 @@
                                     <segue destination="uVC-iE-hQd" kind="show" id="CCT-Yh-Np8"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8cf-uh-ZGq">
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="8cf-uh-ZGq" firstAttribute="centerX" secondItem="4He-lU-K41" secondAttribute="centerX" id="BdI-ah-Hvn"/>
                             <constraint firstAttribute="trailingMargin" secondItem="noY-LH-Gvc" secondAttribute="trailing" id="ImD-uD-cro"/>
                             <constraint firstItem="Iaw-pf-uPf" firstAttribute="centerX" secondItem="tsR-hK-woN" secondAttribute="centerX" id="JGW-YI-Hr5"/>
                             <constraint firstItem="lc1-3K-CXj" firstAttribute="top" secondItem="ftd-HB-pSf" secondAttribute="bottom" constant="10" id="JpW-i4-c7I"/>
@@ -106,7 +100,6 @@
                             <constraint firstAttribute="leadingMargin" secondItem="noY-LH-Gvc" secondAttribute="leading" id="YBB-6E-V5P"/>
                             <constraint firstItem="pmP-Uj-Oqz" firstAttribute="top" secondItem="noY-LH-Gvc" secondAttribute="bottom" constant="15" id="ZLO-YM-aDG"/>
                             <constraint firstItem="Iaw-pf-uPf" firstAttribute="trailing" secondItem="tsR-hK-woN" secondAttribute="trailingMargin" id="afK-l5-Ywe"/>
-                            <constraint firstItem="8cf-uh-ZGq" firstAttribute="top" secondItem="4He-lU-K41" secondAttribute="bottom" constant="16" id="beO-0v-Ktm"/>
                             <constraint firstItem="Iaw-pf-uPf" firstAttribute="top" secondItem="gzN-tI-tyt" secondAttribute="bottom" constant="10" id="d38-uj-ZzV"/>
                             <constraint firstItem="gzN-tI-tyt" firstAttribute="centerX" secondItem="tsR-hK-woN" secondAttribute="centerX" id="fe9-wr-QS3"/>
                             <constraint firstItem="ftd-HB-pSf" firstAttribute="top" secondItem="bJN-7j-d2p" secondAttribute="bottom" constant="10" id="fiJ-6x-yIO"/>
@@ -128,9 +121,6 @@
                     <navigationItem key="navigationItem" id="f70-KC-P2z"/>
                     <simulatedStatusBarMetrics key="simulatedStatusBarMetrics" statusBarStyle="lightContent"/>
                     <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" prompted="NO"/>
-                    <connections>
-                        <outlet property="label" destination="8cf-uh-ZGq" id="JP4-Sb-fSu"/>
-                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="W5J-7L-Pyd" sceneMemberID="firstResponder"/>
             </objects>
