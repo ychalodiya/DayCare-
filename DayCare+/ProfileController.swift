@@ -18,12 +18,11 @@ class ProfileController: UIViewController {
         self.navigationItem.title = tabBarItem.title
         self.view.backgroundColor = UIColor.init(patternImage: #imageLiteral(resourceName: "pattern"))
         
-        let rightg = UISwipeGestureRecognizer(target: self, action: #selector(self.swipes))
-        
-        
-        
-        rightg.direction = .right
-        view.addGestureRecognizer(rightg)
+
+        let SwipeRight = UISwipeGestureRecognizer(target: self, action: #selector(self.swipes))
+        SwipeRight.direction = .right
+        view.addGestureRecognizer(SwipeRight)
+
     }
     
     override func didReceiveMemoryWarning() {

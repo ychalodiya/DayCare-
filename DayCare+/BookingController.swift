@@ -18,17 +18,15 @@ class BookingController: UIViewController {
         self.navigationItem.title = tabBarItem.title
         self.view.backgroundColor = UIColor.init(patternImage: #imageLiteral(resourceName: "pattern"))
         
-        
-        let leftg = UISwipeGestureRecognizer(target: self, action: #selector(self.swipes))
-        
-        let rightg = UISwipeGestureRecognizer(target: self, action: #selector(self.swipes))
-        
-        leftg.direction = .left
-        view.addGestureRecognizer(leftg)
-        
-        rightg.direction = .right
-        view.addGestureRecognizer(rightg)
-        
+
+        let SwipeLeft = UISwipeGestureRecognizer(target: self, action: #selector(self.swipes))
+        let SwipeRight = UISwipeGestureRecognizer(target: self, action: #selector(self.swipes))
+        SwipeLeft.direction = .left
+        view.addGestureRecognizer(SwipeLeft)
+        SwipeRight.direction = .right
+        view.addGestureRecognizer(SwipeRight)
+
+
     }
     
     override func didReceiveMemoryWarning() {
@@ -38,12 +36,10 @@ class BookingController: UIViewController {
     
     func swipes(sender:UISwipeGestureRecognizer) {
         if(sender.direction == .left){
-            
+
             let selectedIndex: Int = self.tabBarController!.selectedIndex
-            self.tabBarController!.selectedIndex = selectedIndex + 1
-        }
+            self.tabBarController!.selectedIndex = selectedIndex + 1 }
         if(sender.direction == .right){
-            
             let selectedIndex: Int = self.tabBarController!.selectedIndex
             self.tabBarController!.selectedIndex = selectedIndex - 1        }
         

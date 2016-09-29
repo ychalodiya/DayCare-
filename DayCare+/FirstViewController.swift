@@ -15,13 +15,14 @@ class FirstViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         
-        self.navigationItem.title = tabBarItem.title
-        self.view.backgroundColor = UIColor.init(patternImage: #imageLiteral(resourceName: "pattern"))
+
+       self.navigationItem.title = tabBarItem.title
+       self.view.backgroundColor = UIColor.init(patternImage: #imageLiteral(resourceName: "pattern"))
         
-        let leftg = UISwipeGestureRecognizer(target: self, action: #selector(self.swipes))
-        
-        leftg.direction = .left
-        view.addGestureRecognizer(leftg)
+       let SwipeLeft = UISwipeGestureRecognizer(target: self, action: #selector(self.swipes))
+       SwipeLeft.direction = .left
+       view.addGestureRecognizer(SwipeLeft)
+
         
     }
     
@@ -30,12 +31,13 @@ class FirstViewController: UIViewController {
         // Dispose of any resources that can be recreated.
         
     }
+
+    
     func swipes(sender:UISwipeGestureRecognizer) {
         if(sender.direction == .left){
-            
             let selectedIndex: Int = self.tabBarController!.selectedIndex
-            self.tabBarController!.selectedIndex = selectedIndex + 1        }
-        
+            self.tabBarController!.selectedIndex = selectedIndex + 1
+        }
     }
     
 }
