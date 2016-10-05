@@ -10,6 +10,12 @@
 		222B9E0B1D89C10D0049346D /* ProfileController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 222B9E0A1D89C10D0049346D /* ProfileController.swift */; };
 		222B9E0D1D89C1570049346D /* BookingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 222B9E0C1D89C1570049346D /* BookingController.swift */; };
 		222B9E0F1D89C16D0049346D /* DayCareController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 222B9E0E1D89C16D0049346D /* DayCareController.swift */; };
+		227795391DA434E30033171A /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 227795381DA434E30033171A /* FBSDKCoreKit.framework */; };
+		2277953B1DA4352A0033171A /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2277953A1DA4352A0033171A /* FBSDKLoginKit.framework */; };
+		2277953D1DA435350033171A /* FBSDKShareKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2277953C1DA435350033171A /* FBSDKShareKit.framework */; };
+		227795411DA43CC40033171A /* DayCare+-Bridging-Header.h in Sources */ = {isa = PBXBuildFile; fileRef = 2277953E1DA4370F0033171A /* DayCare+-Bridging-Header.h */; };
+		227795431DA43F660033171A /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 227795421DA43F660033171A /* Bolts.framework */; };
+		22BD4DAB1D9C189200120898 /* DayCareLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22BD4DAA1D9C189200120898 /* DayCareLocation.swift */; };
 		22FAD9951D997169008753CE /* SignUpVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22FAD9941D997169008753CE /* SignUpVC.swift */; };
 		70C1570B1D87204A0036B24E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70C1570A1D87204A0036B24E /* AppDelegate.swift */; };
 		70C1570D1D87204A0036B24E /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70C1570C1D87204A0036B24E /* FirstViewController.swift */; };
@@ -24,6 +30,13 @@
 		222B9E0A1D89C10D0049346D /* ProfileController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileController.swift; sourceTree = "<group>"; };
 		222B9E0C1D89C1570049346D /* BookingController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BookingController.swift; sourceTree = "<group>"; };
 		222B9E0E1D89C16D0049346D /* DayCareController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DayCareController.swift; sourceTree = "<group>"; };
+		227795381DA434E30033171A /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKCoreKit.framework; sourceTree = "<group>"; };
+		2277953A1DA4352A0033171A /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKLoginKit.framework; sourceTree = "<group>"; };
+		2277953C1DA435350033171A /* FBSDKShareKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKShareKit.framework; sourceTree = "<group>"; };
+		2277953E1DA4370F0033171A /* DayCare+-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DayCare+-Bridging-Header.h"; sourceTree = "<group>"; };
+		227795421DA43F660033171A /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
+		22BD4DAA1D9C189200120898 /* DayCareLocation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DayCareLocation.swift; sourceTree = "<group>"; };
+		22D94D631DA54F5100A81D51 /* DayCare+.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "DayCare+.entitlements"; sourceTree = "<group>"; };
 		22FAD9941D997169008753CE /* SignUpVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpVC.swift; sourceTree = "<group>"; };
 		70C157071D87204A0036B24E /* DayCare+.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "DayCare+.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		70C1570A1D87204A0036B24E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -41,6 +54,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2277953B1DA4352A0033171A /* FBSDKLoginKit.framework in Frameworks */,
+				227795391DA434E30033171A /* FBSDKCoreKit.framework in Frameworks */,
+				2277953D1DA435350033171A /* FBSDKShareKit.framework in Frameworks */,
+				227795431DA43F660033171A /* Bolts.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -66,6 +83,7 @@
 		70C157091D87204A0036B24E /* DayCare+ */ = {
 			isa = PBXGroup;
 			children = (
+				22D94D631DA54F5100A81D51 /* DayCare+.entitlements */,
 				70C1570A1D87204A0036B24E /* AppDelegate.swift */,
 				70C1570C1D87204A0036B24E /* FirstViewController.swift */,
 				70C1571E1D87337A0036B24E /* MainTabBar.swift */,
@@ -78,6 +96,12 @@
 				70C157131D87204A0036B24E /* Assets.xcassets */,
 				70C157151D87204A0036B24E /* LaunchScreen.storyboard */,
 				70C157181D87204A0036B24E /* Info.plist */,
+				22BD4DAA1D9C189200120898 /* DayCareLocation.swift */,
+				227795421DA43F660033171A /* Bolts.framework */,
+				2277953C1DA435350033171A /* FBSDKShareKit.framework */,
+				2277953A1DA4352A0033171A /* FBSDKLoginKit.framework */,
+				227795381DA434E30033171A /* FBSDKCoreKit.framework */,
+				2277953E1DA4370F0033171A /* DayCare+-Bridging-Header.h */,
 			);
 			path = "DayCare+";
 			sourceTree = "<group>";
@@ -116,6 +140,11 @@
 						CreatedOnToolsVersion = 7.3.1;
 						DevelopmentTeam = 4CKCZ46HC6;
 						LastSwiftMigration = 0800;
+						SystemCapabilities = {
+							com.apple.Keychain = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -155,6 +184,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				227795411DA43CC40033171A /* DayCare+-Bridging-Header.h in Sources */,
 				22FAD9951D997169008753CE /* SignUpVC.swift in Sources */,
 				70C1571F1D87337A0036B24E /* MainTabBar.swift in Sources */,
 				222B9E0D1D89C1570049346D /* BookingController.swift in Sources */,
@@ -163,6 +193,7 @@
 				70C1570B1D87204A0036B24E /* AppDelegate.swift in Sources */,
 				70C1570D1D87204A0036B24E /* FirstViewController.swift in Sources */,
 				222B9E0F1D89C16D0049346D /* DayCareController.swift in Sources */,
+				22BD4DAB1D9C189200120898 /* DayCareLocation.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,12 +313,20 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = "DayCare+/DayCare+.entitlements";
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/DayCare+",
+				);
 				INFOPLIST_FILE = "DayCare+/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "OS-X.DayCare-";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "DayCare+/DayCare+-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -296,12 +335,19 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = "DayCare+/DayCare+.entitlements";
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/DayCare+",
+				);
 				INFOPLIST_FILE = "DayCare+/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "OS-X.DayCare-";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "DayCare+/DayCare+-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;

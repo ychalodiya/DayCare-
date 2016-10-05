@@ -156,15 +156,31 @@
                     <view key="view" contentMode="scaleToFill" id="8zb-gk-Pxt">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="QVE-PW-kdE">
+                                <frame key="frameInset" minY="64" width="414" height="623"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </mapView>
+                        </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
-                    <navigationItem key="navigationItem" id="AmA-KD-atG"/>
+                    <navigationItem key="navigationItem" title="Day Care Map" id="AmA-KD-atG">
+                        <barButtonItem key="leftBarButtonItem" systemItem="rewind" id="17X-gl-VPq"/>
+                        <barButtonItem key="rightBarButtonItem" systemItem="search" id="yYE-Yx-9oD">
+                            <connections>
+                                <action selector="ShowSearchBar:" destination="glC-36-5r2" id="s4a-kw-nGh"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                     <simulatedStatusBarMetrics key="simulatedStatusBarMetrics" statusBarStyle="blackOpaque"/>
                     <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" prompted="NO"/>
+                    <connections>
+                        <outlet property="DayCareLocationMap" destination="QVE-PW-kdE" id="DTp-XX-2Q5"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="na1-lF-hzm" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2933" y="-756"/>
+            <point key="canvasLocation" x="2930.434782608696" y="-756.52173913043487"/>
         </scene>
         <!--Bookings-->
         <scene sceneID="TfS-VB-BXi">
@@ -360,11 +376,15 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <pickerView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="B5I-ih-QT8">
+                            <pickerView tag="1" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="B5I-ih-QT8">
                                 <frame key="frameInset" minX="20" minY="254" height="136" maxX="282"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <outlet property="dataSource" destination="ZPg-g3-Vnx" id="Ipo-Zv-LnN"/>
+                                    <outlet property="delegate" destination="ZPg-g3-Vnx" id="Pov-kV-2Re"/>
+                                </connections>
                             </pickerView>
-                            <pickerView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="6iD-yQ-mcd">
+                            <pickerView tag="3" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="6iD-yQ-mcd">
                                 <frame key="frameInset" minX="267" minY="254" height="136" maxX="34"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
                                 <connections>
@@ -386,9 +406,13 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <pickerView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Uzq-Sm-45w">
+                            <pickerView tag="2" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Uzq-Sm-45w">
                                 <frame key="frameInset" minX="148" minY="254" height="136" maxX="155"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <outlet property="dataSource" destination="ZPg-g3-Vnx" id="OEb-Fw-6gr"/>
+                                    <outlet property="delegate" destination="ZPg-g3-Vnx" id="Hw7-LV-cK9"/>
+                                </connections>
                             </pickerView>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter Your Email ID" textAlignment="natural" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="4Ty-Do-Hda">
                                 <frame key="frameInset" minX="117" minY="440" width="277" height="30"/>
@@ -442,6 +466,9 @@
                                 <state key="normal" title="Sign Up With Facebook">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="fbLoginBtnAction:" destination="G1V-Wo-69G" eventType="touchUpInside" id="GPl-6g-1N5"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WIh-1n-OJc">
                                 <frame key="frameInset" minX="20" minY="642" width="374" height="37"/>
@@ -463,12 +490,31 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fQG-LU-4Vu">
+                                <frame key="frameInset" minX="148" minY="383" width="111" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="feX-uu-Ngj">
+                                <frame key="frameInset" minX="20" minY="383" width="112" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <connections>
                         <outlet property="CityLabel" destination="tvp-AX-W7f" id="Fv0-eJ-Crf"/>
                         <outlet property="CityPickerView" destination="6iD-yQ-mcd" id="Gde-31-ThW"/>
+                        <outlet property="CountryLabel" destination="feX-uu-Ngj" id="Nhm-kS-xxw"/>
+                        <outlet property="CountryPickerView" destination="B5I-ih-QT8" id="4Wm-Gj-Cje"/>
+                        <outlet property="StateLabel" destination="fQG-LU-4Vu" id="6to-8I-ecc"/>
+                        <outlet property="StatePickerView" destination="Uzq-Sm-45w" id="Acn-Kd-Uxn"/>
+                        <outlet property="fbLoginButton" destination="jIz-cZ-GhP" id="AzE-hZ-5fy"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Gma-5e-6Ga" userLabel="First Responder" sceneMemberID="firstResponder"/>

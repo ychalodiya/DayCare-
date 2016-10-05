@@ -15,8 +15,12 @@ class ProfileController: UIViewController {
 
         // Do any additional setup after loading the view.
         
-         self.navigationItem.title = tabBarItem.title
+        self.navigationItem.title = tabBarItem.title
         self.view.backgroundColor = UIColor.init(patternImage: #imageLiteral(resourceName: "pattern"))
+        
+        let SwipeRight = UISwipeGestureRecognizer(target: self, action: #selector(self.swipes))
+        SwipeRight.direction = .right
+        view.addGestureRecognizer(SwipeRight)
     }
 
     override func didReceiveMemoryWarning() {
@@ -24,6 +28,12 @@ class ProfileController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
+    func swipes(sender:UISwipeGestureRecognizer) {
+        if(sender.direction == .right){
+            let selectedIndex: Int = self.tabBarController!.selectedIndex
+            self.tabBarController!.selectedIndex = selectedIndex - 1
+        }
+    }
 
     /*
     // MARK: - Navigation

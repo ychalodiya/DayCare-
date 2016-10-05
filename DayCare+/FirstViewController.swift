@@ -17,13 +17,10 @@ class FirstViewController: UIViewController {
        self.navigationItem.title = tabBarItem.title
        self.view.backgroundColor = UIColor.init(patternImage: #imageLiteral(resourceName: "pattern"))
         
-       /* let leftSwipe = UISwipeGestureRecognizer(target: self, action: Selector(("handleSwipes:")))
+       let SwipeLeft = UISwipeGestureRecognizer(target: self, action: #selector(self.swipes))
+       SwipeLeft.direction = .left
+       view.addGestureRecognizer(SwipeLeft)
         
-        
-        leftSwipe.direction = .left
-        
-        
-        view.addGestureRecognizer(leftSwipe) */
     }
 
     override func didReceiveMemoryWarning() {
@@ -31,22 +28,13 @@ class FirstViewController: UIViewController {
         // Dispose of any resources that can be recreated.
        
     }
-    /*
-    func handleSwipes(sender:UISwipeGestureRecognizer) {
-        if (sender.direction == .left) {
-            
-            let storyboard = UIStoryboard(name: "Main", bundle: nil)
-            let vc = storyboard.instantiateViewController(withIdentifier: "SecondViewController") 
-            self.present(vc, animated: false, completion: nil)
-            
-        }
-        
-        if (sender.direction == .right) {
-            
+    
+    func swipes(sender:UISwipeGestureRecognizer) {
+        if(sender.direction == .left){
+            let selectedIndex: Int = self.tabBarController!.selectedIndex
+            self.tabBarController!.selectedIndex = selectedIndex + 1
         }
     }
-    */
-
 
 }
 
